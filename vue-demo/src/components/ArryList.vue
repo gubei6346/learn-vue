@@ -1,4 +1,5 @@
 <template>
+    <p>------------</p>
     <h3>数组变化侦听</h3>
     <button @click="addListHandle">添加数据</button>
     <ul>
