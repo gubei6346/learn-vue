@@ -9,6 +9,7 @@ import EventDemo3 from './components/EventDemo3.vue'
 import EventDemo4 from './components/EventDemo4.vue'
 import EventDemo5 from './components/EventDemo5.vue'
 import EventDemo6 from './components/EventDemo6.vue'
+import ArryList from './components/ArryList.vue'
 </script>
 
 <template>
@@ -22,5 +23,6 @@ import EventDemo6 from './components/EventDemo6.vue'
   <EventDemo4 />
   <EventDemo5 />
   <EventDemo6 />
+  <ArryList />
 </template>
 
