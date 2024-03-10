@@ -5,6 +5,10 @@ import ListDemo from './components/ListDemo.vue'
 import KeyDemo from './components/KeyDemo.vue'
 import EventDemo from './components/EventDemo.vue'
 import EventDemo2 from './components/EventDemo2.vue'
+import EventDemo3 from './components/EventDemo3.vue'
+import EventDemo4 from './components/EventDemo4.vue'
+import EventDemo5 from './components/EventDemo5.vue'
+import EventDemo6 from './components/EventDemo6.vue'
 </script>
 
 <template>
@@ -14,5 +18,9 @@ import EventDemo2 from './components/EventDemo2.vue'
   <KeyDemo />
   <EventDemo />
   <EventDemo2 />
+  <EventDemo3 />
+  <EventDemo4 />
+  <EventDemo5 />
+  <EventDemo6 />
 </template>
 
