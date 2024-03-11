@@ -12,6 +12,8 @@ import EventDemo6 from './components/EventDemo6.vue'
 import ArryList from './components/ArryList.vue'
 import ComputedDemo from './components/ComputedDemo.vue'
 import ClassDemo from './components/ClassDemo.vue'
+import StyleDemo from './components/StyleDemo.vue'
+import WatchDemo from './components/WatchDemo.vue'
 </script>
 
 <template>
@@ -28,5 +30,7 @@ import ClassDemo from './components/ClassDemo.vue'
   <ArryList />
   <ComputedDemo />
   <ClassDemo />
+  <StyleDemo />
+  <WatchDemo />
 </template>
 
