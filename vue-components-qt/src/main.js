@@ -2,5 +2,9 @@
 
 import { createApp } from 'vue'
 import App from './App.vue'
-
-createApp(App).mount('#app')
+import Header from './pages/Header.vue'
+const app = createApp(App)
+//全局注册
+//在这中间写组件的注册
+app.component("Header", Header)
+app.mount('#app')
