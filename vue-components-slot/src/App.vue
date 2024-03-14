@@ -6,7 +6,13 @@
     </div>
   </SlotsBase>
   <SlotsTow>
-    <h3>{{ message }}</h3>
+    <template #header>
+      <h3>{{ message }}</h3>
+    </template>
+    <template v-slot:main>
+      <p>内容</p>
+    </template>
+
   </SlotsTow>
 </template>
 
