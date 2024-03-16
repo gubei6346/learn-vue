@@ -14,7 +14,12 @@
     </template>
   </SlotsTow>
   <SlotsAttr>
-    <h3>{{ currentTest }}</h3>
+    <template #Header1="slotProps">
+      <h3>{{ currentTest }}-{{ slotProps.msg }}</h3>
+    </template>
+    <template #main="slotProps">
+      <p>{{ slotProps.job }}</p>
+    </template>
   </SlotsAttr>
 </template>
 
